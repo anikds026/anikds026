@@ -1,3 +1,6 @@
+//Calander Project
+
+
 #include<stdio.h>
 int getFirstDayOfTheYear(int year){
         int day = (year*365 + ((year-1) / 4)) - ((year-1)/100)+((year-1)/400) %7;
